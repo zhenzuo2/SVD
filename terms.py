@@ -58,6 +58,7 @@ def useterm(num, Matrix):
     
     M=numpy.dot(zen, sigma)
     M=numpy.dot(M,vectorVT)
+    M=M.real
     #print ("new restoration")
     #print (M)
     

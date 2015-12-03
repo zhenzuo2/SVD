@@ -53,8 +53,7 @@ def getdecom(Matrix):
     Singular=[None]*z
     for i in range(z):
         Singular[i]=Singu[i].real
-    print(Singular)
-    print(type(Singular[0]))
+    
     
     flag=0
     for i in range(z):
